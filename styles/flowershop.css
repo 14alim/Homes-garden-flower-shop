@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation Bar Section */
+
+.nav-container {
+    background-color: #111010;
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+.menus {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.item {
+    margin-right: 17px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.nav-title {
+    padding: 20px;
+    color: #E55473;
+    font-size: 35px;
+}
+
+.nav-text {
+    color: whitesmoke;
+}
+
+/* Banner section */
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner .banner-picture {
+    width: 450px;
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #272727;
+}
+
+.banner-description {
+    font-family: Open Sans;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 25px;
+}
+
+/* Main section */
+
+/* featured section */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 0px;
+}
+
+#featured-description {
+    padding: 10px;
+}
+
+.tree-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 30px 130px 30px 130px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.tree1 {
+    padding: 120px 70px 0px 70px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    
+}
+
+.tree2 {
+    padding: 150px 40px 0px 40px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.tree3 {
+    padding: 100px 70px 0 70px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    
+}
+
+.tree-name {
+    display: flex;
+    color: #272727;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+}
