@@ -242,17 +242,21 @@ footer{
     background-color: #181818;
     align-items: center;
     text-align: center;
-    padding-top: 130px;
+    padding-top: 120px;
     padding-bottom: 30px;
     margin-top: 120px;
     
 }
 .footer-title{
-    color: whitesmoke;
+    color: rgb(187, 183, 183);
     font-size: 45px;
+    padding-bottom: 20px;
 }
 .footer-text{
     color: #E55473;
+}
+.footer-description{
+    color: rgb(196, 186, 186);
 }
 .copy{
     color: rgba(255, 255, 255, 0.40);
