@@ -31,7 +31,7 @@ body {
 
 .nav-title {
     padding: 20px;
-    color: whitesmoke ;
+    color: whitesmoke;
     font-size: 35px;
 }
 
@@ -83,14 +83,12 @@ body {
 /* Main section */
 
 /* featured section */
-
-.main-section {
-    max-width: 1140px;
+main {
+    max-width: 1400px;
     margin: 0 auto;
 }
 
-.main-section
-section {
+main section {
     margin-top: 130px;
 }
 
@@ -145,7 +143,7 @@ section {
     display: flex;
     color: #272727;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 24px;
     font-weight: 700;
     text-decoration: underline;
@@ -177,7 +175,7 @@ section {
 
 /* Sale Section */
 
-.sale-container{
+.sale-container {
     padding: 100px 280px 100px 280px;
     display: flex;
     align-items: center;
@@ -187,13 +185,82 @@ section {
     gap: 80px;
 }
 
-.sale-btn{
+.sale-btn {
     border-radius: 8px;
     background: #E55473;
     border: 0;
     font-size: 18px;
     font-weight: 700;
     color: white;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 15px 25px;
+    
+}
+
+/* social section */
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 35px;
+    padding-bottom: 130px;
+}
+
+/* subscirbe section */
+
+.subscriber-section {
+    padding: 150px;
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+
+}
+
+.email-section input {
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    margin-top: 14px;
+    padding: 16px 35px;
+    align-items: center;
+    width: 200%;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.se {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
+}
+
+/* Footer Section */
+
+footer{
+    background-color: #181818;
+    align-items: center;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    margin-top: 120px;
+    
+}
+.footer-title{
+    color: whitesmoke;
+    font-size: 45px;
+}
+.footer-text{
+    color: #E55473;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.40);
+    padding-top: 20px;
+}
+.social-links{
+    padding-top: 30px ;
+}
+.social-links a{
+    margin: 25px;
 }
